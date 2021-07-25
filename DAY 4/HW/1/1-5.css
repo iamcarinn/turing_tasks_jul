@@ -1,0 +1,17 @@
+body {
+    font-family: Arial;
+}
+
+p:nth-child(2) {
+    background-color: green;
+}
+
+h1, h3 {
+    width: 200px;
+    text-align: left;
+}
+
+p {
+    padding-left: 30px;
+    text-align: right;
+}

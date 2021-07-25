@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="1.css" rel="stylesheet">
+</head>
+<body>
+<div>
+    <form>
+        <fieldset>
+            <legend>Checkbox</legend>
+            <input type="checkbox">
+            <input type="checkbox" disabled>
+        </fieldset>
+
+        <fieldset>
+            <legend>File</legend>
+            <input type="file">
+            <input type="file"disabled>
+        </fieldset>
+
+        <fieldset>
+            <legend>Image</legend>
+            <input type="image">
+            <input type="image" disabled>
+        </fieldset>
+
+        <fieldset>
+            <legend>Password</legend>
+            <input type="password">
+            <input type="password" disabled>
+        </fieldset>
+
+        <fieldset>
+            <legend>Text</legend>
+            <input type="text">
+            <input type="text" disabled>
+        </fieldset>
+
+        <fieldset>
+            <legend>Email</legend>
+            <input type="email">
+            <input type="email" disabled>
+        </fieldset>
+
+        <fieldset>
+            <legend>Date</legend>
+            <input type="date">
+            <input type="date" disabled>
+        </fieldset>
+
+        <fieldset>
+            <legend>Input button</legend>
+            <input type="button" value="Пук">
+        </fieldset>
+
+        <fieldset>
+            <legend>Button button</legend>
+            <button>Пук</button>
+        </fieldset>
+
+        <fieldset>
+            <legend>Radio</legend>
+            <input type="radio" name="name">
+            <input type="radio" name="name">
+            <input type="radio" name="name">
+        </fieldset>
+
+        <fieldset>
+            <legend>Textarea</legend>
+            <p><textarea maxlength="100" rows="3" cols="20"></textarea></p>
+            <p><textarea maxlength="100" rows="3"></textarea></p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Список с выбором</legend>
+            <select name="Имя">
+                <option disabled>Выберите имя</option>
+                <option>Вася</option>
+                <option>Даша</option>
+                <option>Маринка</option>
+            </select>
+
+            <select name="Имя" multiple>
+                <option disabled>Выберите имя</option>
+                <option>Вася</option>
+                <option>Даша</option>
+                <option>Маринка</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Checkbox c активацией через текст</legend>
+            <input type="checkbox" id="chek1">
+            <label for="chek1">Холост</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Password and Email</legend>
+            <input type="password" tabindex="2">
+            <input type="email" tabindex="3">
+            <input type="submit" tabindex="1">
+        </fieldset>
+    </form>
+</div>
+</body>
+</html>
