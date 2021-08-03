@@ -1,0 +1,13 @@
+input {
+    width: 200px;
+    height: 100px;
+    -webkit-box-shadow: 7px 7px 16px 8px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 7px 7px 16px 8px rgba(34, 60, 80, 0.2);
+    box-shadow: 7px 7px 16px 8px rgba(34, 60, 80, 0.2);
+    border: white;
+}
+
+input::placeholder{
+    color: tomato;
+
+}

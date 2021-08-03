@@ -1,0 +1,38 @@
+form {
+    width: 500px;
+    height: 530px;
+    background-color: #F5F5F5;
+    border-radius: 3px;
+    border: lightgrey solid 1px;
+    -webkit-box-shadow: -1px 0px 43px 8px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: -1px 0px 43px 8px rgba(34, 60, 80, 0.2);
+    box-shadow: -1px 0px 43px 8px rgba(34, 60, 80, 0.2);
+}
+
+.name {
+    height: 40px;
+    text-indent: 30px;
+    overflow: hidden;
+}
+
+table:nth-child(4){
+    text-align: center;
+    width: 400px;
+}
+tr {
+    text-align: right;
+}
+
+.main {
+    height: 40px;
+    text-indent: 30px;
+    overflow: hidden;
+}
+
+.test1 input{
+    background-color: cornflowerblue;
+}
+
+.test2 {
+    text-align: left;
+}

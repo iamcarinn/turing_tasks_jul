@@ -1,0 +1,11 @@
+p {
+    background-color: pink;
+}
+
+.item-1:hover {
+    background-color: dodgerblue;
+}
+
+.item-2:hover {
+    background-color: red;
+}
