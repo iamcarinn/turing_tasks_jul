@@ -13,10 +13,10 @@
     text-align: center;
     font-size: large;
 
-    position: relative;
 }
 
 div>div {
+    float: left;
     width:100px;
     height: 30px;
     border-radius: 0px 20px 20px 0px;
@@ -25,7 +25,7 @@ div>div {
 
     background: -webkit-linear-gradient(135deg, rgb(180, 223, 176), rgb(37, 111, 46));
     background: -moz-linear-gradient(135deg, rgb(180, 223, 176), rgb(37, 111, 46));
-    background: linear-gradient(135deg, rgb(180, 223, 176), rgb(37, 111, 46);
+    background: linear-gradient(135deg, rgb(180, 223, 176), rgb(37, 111, 46));
 
     -webkit-box-shadow: 5px 5px 13px 1px rgba(34, 60, 80, 0.2);
     -moz-box-shadow: 5px 5px 13px 1px rgba(34, 60, 80, 0.2);
@@ -33,19 +33,24 @@ div>div {
 }
 
 .uno {
-    position: absolute;
+    z-index: 4;
+    position: relative;
 }
 
 .dos {
-    position: absolute;
-    top: 1000px;
-    left: 1000px;
+    z-index: 3;
+    position: relative;
+    left: -20px;
 }
 
 .tres {
-    top: 0px;
+    z-index: 2;
+    position: relative;
+    left: -40px;
 }
 
 .quatro {
-    top: 0px;
+    z-index: 1;
+    position: relative;
+    left: -60px;
 }
