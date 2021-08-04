@@ -1,12 +1,12 @@
 div {
     width: max-content;
     background-color: darkseagreen;
-/*    animation: 5s box;*/
+    animation: 5s box;
+    animation-fill-mode: forwards;
 }
 
-input:focus {
-        animation: 5s box;
-    }
+input:checked {
+    background-color: green;
 }
 
 @keyframes box {
