@@ -1,0 +1,5 @@
+input:focus {
+    transform: scale(2,1.5) translate(230px, 200px);
+    transition-property: transform;
+    transition-duration: 2s;
+}

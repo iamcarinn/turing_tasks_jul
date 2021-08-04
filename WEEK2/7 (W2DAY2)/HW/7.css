@@ -1,0 +1,14 @@
+div {
+    width: max-content;
+    background-color: darkseagreen;
+/*    animation: 5s box;*/
+}
+
+input:focus {
+        animation: 5s box;
+    }
+}
+
+@keyframes box {
+    100% {width: 800px}
+}
