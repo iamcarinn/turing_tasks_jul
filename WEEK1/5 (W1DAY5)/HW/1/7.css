@@ -1,0 +1,83 @@
+/*//фон//*/
+div {
+    width: 350px;
+    height: 300px;
+    background-color: white;
+}
+
+/*//фон раскрывающегося меню//*/
+ul {
+/*    //убрали маркеры списков//*/
+    list-style: none;
+    background: white;
+    -webkit-box-shadow: -2px 34px 58px 13px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: -2px 34px 58px 13px rgba(34, 60, 80, 0.2);
+    box-shadow: -2px 34px 58px 13px rgba(34, 60, 80, 0.2);
+}
+
+.topmenu>li {
+/*    //прижали к левому краю оба//*/
+/*    float: left;*/
+/*    //сделали отступы,чтобы не наезжало друг на друга//*/
+    margin-right: 20px;
+    /*    //сделали отступ сверху//*/
+    margin-top: 25px;
+}
+
+.topmenu-1 {
+    float: left;
+}
+
+.topmenu-2 {
+    float: right;
+    width: 150px;
+}
+
+
+/*//Цвет изначальный у главного меню//*/
+a {
+    border-radius: 5px;
+    padding: 3px 5px;
+    line-height: 10px;
+    display: block;
+    background: white;
+    -webkit-box-shadow: 1px 17px 62px 18px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 1px 17px 62px 18px rgba(34, 60, 80, 0.2);
+    box-shadow: 1px 17px 62px 18px rgba(34, 60, 80, 0.2);
+    width: 50px;
+}
+/*//Вид при наведении//*/
+a:hover {
+    background: white;
+    width: 50px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.submenu {
+    /*убираем отступы слева*/
+    padding-left: 0;
+    /*Размещаем список горизонтально для реализации меню*/
+/*    float:left;*/
+    /*задаем позицию для позиционирования*/
+    position:relative;
+}
+
+.submenu>li:hover {
+    background: blue;
+    color: white;
+}
+
+/*Стили для скрытого выпадающего меню*/
+li>ul {
+    position: absolute;
+    display: none;
+}
+
+/*Делаем скрытую часть видимой*/
+li:hover >ul {
+    display: block;
+    width: 100px;
+}
+
+
+

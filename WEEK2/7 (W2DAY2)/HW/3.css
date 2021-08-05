@@ -1,0 +1,8 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: lightpink;
+    position: fixed;
+    left: 100px;
+    top: 300px;
+}

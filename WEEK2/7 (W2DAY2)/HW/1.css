@@ -1,0 +1,14 @@
+div {
+    width: 500px;
+    background-color: tomato;
+    color: white;
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-property: color;
+    transition-duration: 2s;
+}
+
+div:hover {
+    background-color: darkblue;
+    color: tomato;
+}
