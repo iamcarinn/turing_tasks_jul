@@ -1,2 +1,4 @@
-let a='Hello'
-alert('Karina')
+let one;
+one=123;
+
+console.log(one);
