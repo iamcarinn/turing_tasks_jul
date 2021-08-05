@@ -1,0 +1,25 @@
+.back {
+    width: 500px;
+    height: 70px;
+    background-color: lightpink;
+    border-radius: 70px 70px 70px 70px;
+/*    border: 4px solid palevioletred;*/
+    position: absolute;
+}
+
+.circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 70px 70px 70px 70px;
+    background-color: indianred;
+    position: relative;
+    animation: 3s box;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(8, 1.84, 97,-0.55);
+}
+
+@keyframes box {
+    0% {left: 0}
+    80% {left:600px}
+    100% {left:430px}
+}
