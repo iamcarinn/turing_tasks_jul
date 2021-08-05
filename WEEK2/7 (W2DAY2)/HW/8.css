@@ -1,10 +1,9 @@
 .white {
     width: 350px;
     height: 350px;
-    background-color: palevioletred;
+    background-color: white;
 
     z-index: 1;
-
     position: absolute;
 }
 
@@ -37,17 +36,18 @@
 
 .circle {
     animation: 5s box1;
-    animation-fill-mode: forwards;
-    animation: 5s box2;
+    animation-direction: 4s ;
 }
 
 
 @keyframes box1 {
-    50% {top: -150px}
-    100% {top: -300px}
+    12.5% {left: 150px; top: 0px}
+    25% {left: 300px; top: 0px}
+    37.5% {top: -150px;left: 300px}
+    50% {top: -300px;left: 300px}
+    62.5% {left: 150px; top: -300px}
+    75% {left: 0px; top:-300px}
+    87.5% {left:0px; top: -150px}
+    100% {left:0; top:0}
 }
 
-@keyframes box2 {
-    50% {left: 150px}
-    100% {left: 300px}
-}
