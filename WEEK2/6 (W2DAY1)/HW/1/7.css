@@ -4,5 +4,7 @@ div {
     border-left: 20px solid tomato;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
+    float: left;
 }
+
 

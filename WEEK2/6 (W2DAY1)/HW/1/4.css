@@ -2,10 +2,10 @@ p {
     background-color: pink;
 }
 
-.item-1:hover {
+.item-1::selection {
     background-color: dodgerblue;
 }
 
-.item-2:hover {
+.item-2::selection {
     background-color: red;
 }
