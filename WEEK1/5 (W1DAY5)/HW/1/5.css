@@ -1,11 +1,27 @@
-div {
-    background: green;
-    width: 100px; height: 100px;
-    text-align: center;
-    line-height: 100px;
+.diagram {
+    width: 100px;
+    height: 100px;
+    z-index: 1;
     border-radius: 50%;
-    border: 20px solid red;
+    background-color: yellowgreen;
+    background-image:
+            linear-gradient(to right, transparent 50%, tomato 0);
 }
 
 
+.diagram::before {
+    content:'';
+    display: block;
+    margin-left: 50%;
+    height: 100%;
+    background-color: inherit;
+    border-radius: 0 100% 100% 0/50%;
+    transform-origin: left;
+    transform: rotate(70deg);
+}
 
+p {
+    text-align: center;
+    border: tomato solid 3px;
+    width: max-content;
+}
