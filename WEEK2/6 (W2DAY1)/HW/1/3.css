@@ -1,0 +1,19 @@
+header {
+    width: 900px;
+}
+
+
+p {
+    font: large "Times New Roman";
+}
+
+
+p::first-line {
+    font-style: italic;
+}
+
+body:lang(en) {
+    font-style: italic;
+}
+
+
