@@ -1,4 +1,2 @@
-let one;
-one=123;
-
-console.log(one);
+let age = 100;
+alert('Тебe '+age+ ' лет!');
