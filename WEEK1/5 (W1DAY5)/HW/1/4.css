@@ -1,0 +1,24 @@
+table {
+    width: 300px;
+    height: 40px;
+    background-color: darkred;
+    white-space: nowrap;
+    font-style: italic;
+    font-family: Romantic;
+    font-size: x-large;
+}
+
+td:first-child {
+    color:red;
+    text-decoration: underline red;
+}
+
+td:nth-child(2) {
+    color:lawngreen;
+    text-decoration: underline lawngreen;
+}
+
+td:last-child {
+    color:deepskyblue;
+    text-decoration: underline deepskyblue;
+}
