@@ -1,0 +1,9 @@
+body {
+    counter-reset: section;
+}
+
+
+p::before {
+    content: "Абзац " counter(section) ". ";
+    counter-increment: section;
+}
