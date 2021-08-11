@@ -1,11 +1,5 @@
 const fib=(n) => {
-    if (typeof n!=="number") return 'Вы ввели не число';
-    if (n===1) return 0;
-    if (n===2) return 0;
-    if (n<=0) {
-        break
-    } else
-
+    return n<=1? n : fib(n-1)+fib(n-2);
 }
 
-fib(3);
+console.log(fib(6));
