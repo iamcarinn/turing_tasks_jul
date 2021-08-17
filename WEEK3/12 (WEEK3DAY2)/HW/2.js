@@ -1,16 +1,13 @@
-function cococo() {
-    let a=prompt('Введите число');
-    let b=prompt('Введите ещё число пожалуйста :)');
-
+function cococo(a,b) {
     if (a>b) {
-        alert(1);
+        console.log(1);
     } else {
         if (a<b) {
-            alert(-1);
+            console.log(-1);
         } else {
-            alert(0);
+            console.log(0);
         }
     }
 }
 
-cococo()
+cococo(3,6)

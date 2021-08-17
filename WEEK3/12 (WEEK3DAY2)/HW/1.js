@@ -1,8 +1,6 @@
-function firstHi() {
-    let a='приветик,';
-    let name='Карина!';
-    let howyoud='Как дела?';
-    console.log(a, name, howyoud);
+
+function firstHi(a,name,how) {
+    console.log(a+', '+name+'! '+how);
 }
 
-firstHi()
+firstHi('приветик','Карина', 'Как дела?')
