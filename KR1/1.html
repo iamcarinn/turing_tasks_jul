@@ -12,7 +12,7 @@
     <tr>
         <th>Структура</th>
     </tr>
-
+<!--ШАПКА-->
     <tr>
         <th>Имя</th>
         <th>Тип</th>
@@ -28,6 +28,7 @@
     </thead>
 
     <tbody>
+<!--    1 СТРОКА-->
     <tr>
         <td><input type="text" value="id"></td>
         <td>
@@ -58,11 +59,22 @@
             </select>
         </td>
         <td><input type="checkbox"></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>
+            <select>
+                <option>PRIMARY</option>
+                <option>UNIQUE</option>
+                <option>---</option>
+            </select>
+        </td>
+        <td><input type="checkbox" checked></td>
+        <td><input type="text"></td>
     </tr>
-////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+<!--    2 СТРОКА-->
     <tr>
         <td><input type="text" value="login"></td>
         <td>
@@ -93,11 +105,22 @@
             </select>
         </td>
         <td><input type="checkbox"></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>
+            <select>
+                <option>UNIQUE</option>
+                <option>PRIMARY</option>
+                <option>---</option>
+            </select>
+        </td>
+        <td><input type="checkbox"></td>
+        <td><input type="text"></td>
     </tr>
-    ////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+<!--    3 СТРОКА-->
     <tr>
         <td><input type="text" value="password"></td>
         <td>
@@ -128,11 +151,22 @@
             </select>
         </td>
         <td><input type="checkbox" checked></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>
+            <select>
+                <option>---</option>
+                <option>UNIQUE</option>
+                <option>PRIMARY</option>
+            </select>
+        </td>
+        <td><input type="checkbox"></td>
+        <td><input type="text"></td>
     </tr>
-    ////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+<!--    4 СТРОКА-->
     <tr>
         <td><input type="text" value="regdata"></td>
         <td>
@@ -163,9 +197,15 @@
             </select>
         </td>
         <td><input type="checkbox" checked></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>
+            <select>
+                <option>---</option>
+                <option>UNIQUE</option>
+                <option>PRIMARY</option>
+            </select>
+        </td>
+        <td><input type="checkbox"></td>
+        <td><input type="text"></td>
     </tr>
     </tbody>
 </table>

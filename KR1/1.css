@@ -1,0 +1,28 @@
+thead {
+    background-color: lightblue;
+}
+
+tbody > tr:nth-child(2n+1) {
+    background-color: darkgrey;
+}
+
+tbody > tr:nth-child(2n) {
+    background-color: lightgrey;
+}
+
+
+
+table {
+    border-spacing: 3px;
+    font-family: "Comic Sans MS", sans-serif;
+    width: 60%;
+}
+
+body {
+    text-align: center;
+    width: 100%;
+}
+
+td:nth-child(7) {
+    width: 200px;
+}
