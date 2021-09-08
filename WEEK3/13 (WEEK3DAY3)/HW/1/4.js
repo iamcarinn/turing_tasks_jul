@@ -1,6 +1,6 @@
-let n=11>7;
+let n=11>5;
 
-switch (n) {
+switch (typeof n) {
     case 'number':
         alert('number');
         break;
@@ -11,10 +11,6 @@ switch (n) {
 
     case 'undefined':
         alert('undefined');
-        break;
-
-    case 'null':
-        alert('null');
         break;
 
     case 'boolean':
