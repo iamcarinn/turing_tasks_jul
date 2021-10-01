@@ -1,0 +1,15 @@
+div {
+    text-align: center;
+    width: 200px;
+    background-color: tomato;
+}
+
+ul {
+    list-style: none;
+}
+
+li:hover {
+    background: white;
+    width: 50px;
+    border-radius: 5px 5px 0px 0px;
+}

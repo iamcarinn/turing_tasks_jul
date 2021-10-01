@@ -1,0 +1,10 @@
+li {
+    font-family: Calibri;
+}
+
+
+li:nth-child(odd) {
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+}

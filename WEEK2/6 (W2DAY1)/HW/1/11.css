@@ -1,0 +1,19 @@
+.custom-checkbox {
+    position: absolute;
+/*    Кладу ниже остальных элементов*/
+    z-index: -1;
+/*    Делаю прозрачным*/
+    opacity: 0.3;
+}
+
+.custom-checkbox+label::before {
+    content: " ";
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+}
+
+.custom-checkbox:checked+label::before {
+    background-color: orangered;
+}
+

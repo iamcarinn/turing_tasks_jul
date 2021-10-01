@@ -1,0 +1,46 @@
+.white {
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid black;
+
+    position: relative;
+}
+
+.red {
+    background-color: red;
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+
+    position: absolute;
+
+    left: 90px;
+    top: 40px;
+}
+
+
+.rus {
+    margin-top: 30px;
+    border: 1px solid black;
+    width: 300px;
+    height: 200px;
+}
+
+.whrus {
+    background-color: white;
+    width: 300px;
+    height: 66.6px;
+}
+
+.blrus {
+    background-color: blue;
+    width: 300px;
+    height: 66.6px;
+}
+
+.rdrus {
+    background-color: red;
+    width: 300px;
+    height: 66.8px;
+}
