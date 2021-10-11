@@ -1,12 +1,5 @@
-let cub = function (num) {
-    return num*num;
-}
+const squarePow = (number, callback) => {
+    return callback(callback(number))
+};
 
-function squarePow(t,function()) {
-    cub();
-}
-
-
-
-
-console.log(squarePow(2,cub())
+console.log(squarePow(3, (num) => num*num));
