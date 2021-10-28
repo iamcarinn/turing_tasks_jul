@@ -1,0 +1,12 @@
+header {
+    width: 900px;
+
+}
+
+p::first-letter {
+    color: blue;
+}
+
+p {
+    font: large "Times New Roman";
+}

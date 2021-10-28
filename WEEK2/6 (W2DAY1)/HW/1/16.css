@@ -1,0 +1,15 @@
+::-webkit-scrollbar {
+    background-color: white;
+    -webkit-box-shadow: -1px -1px 24px -4px rgba(34, 60, 80, 0.2) inset;
+    -moz-box-shadow: -1px -1px 24px -4px rgba(34, 60, 80, 0.2) inset;
+    box-shadow: -1px -1px 24px -4px rgba(34, 60, 80, 0.2) inset;
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+    height: 400px;
+    background: -webkit-linear-gradient(0deg, rgb(190, 188, 197), rgb(48, 0, 105));
+    background: -moz-linear-gradient(0deg, rgb(190, 188, 197), rgb(48, 0, 105));
+    background: linear-gradient(0deg, rgb(190, 188, 197), rgb(48, 0, 105));
+}
