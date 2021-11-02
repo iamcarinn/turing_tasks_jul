@@ -1,10 +1,5 @@
 const arr = [1,2,3,4];
 
-function count(array) {
-    let sum = 0;
-    array.forEach(function(item){sum += item})
-    return sum;
-}
+let result = arr.reduce((sum, current) => sum + current, 0);
 
-console.log(count(arr));
-
+console.log('Сумма всех чисел массива:', result);

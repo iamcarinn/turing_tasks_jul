@@ -3,4 +3,3 @@ function Zoo(Animal) {
     this.kind = false;
 }
 console.log(new Zoo('bear'));
-

@@ -4,5 +4,7 @@ let obg1 = {
     c: 'c',
 }
 
-console.log(obg1);
-console.log(Object.keys(obg1));
+//Через квадратные скобки
+console.log(obg1['a']);
+//Как свойство объекта
+console.log(obg1.a);

@@ -1,27 +1,24 @@
-const arr = {
-    'Массив в виде таблицы': [
-        [1,2,3],
-        [4,5,6],
-    ]
-}
+//Находим элемент в разметке
+const content = document.querySelector('.content');
 
+//Создаем новый элемент-таблицу
+const table = document.createElement('table');
 
-document.querySelector('.content').innerHTML = `<table class="phone"></table>`
+//Добавляем таблицу внутрь блока content
+content.append(table);
 
-for (key in arr) {
-    let row = document.createElement('tr')
-    row.innerHTML=`<td colspan="2">${key}</td>`
-    document.querySelector('.phone').appendChild(row)
-    for(let i=0; i<arr[key].length; i++) {
-        let row = document.createElement('<tr>')
-        row.innerHTML=`
-        <td>${arr[key][i][0]}</td>
-        <td>${arr[key][i][1]}</td>
-        `
-        document.querySelector('.phone').appendChild(row)
+//Создаем матрицу
+for (let i=0; i<2; i++) {
+    let tr = document.createElement('tr');
 
+    for (let j = 0; j < 3; j++) {
+        let td = document.createElement('td');
+        //Получаем рандомное число от 0 до 10
+        td.textContent = String(Math.floor(Math.random() * 10));
+        tr.append(td);
     }
-}
 
+    table.append(tr);
+};
 
 

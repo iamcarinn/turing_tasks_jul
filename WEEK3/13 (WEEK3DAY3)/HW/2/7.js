@@ -1,5 +1,7 @@
-let str1='Привет! Как дела?';
+const str1='Привет! Как дела?';
+const newStr1 = str1.split('');
+console.log(newStr1);
 
-str1.sort();
+newStr1.sort();
+console.log(newStr1);
 
-console.log(str1);

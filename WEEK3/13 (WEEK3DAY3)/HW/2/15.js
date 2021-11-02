@@ -5,8 +5,7 @@ let arr1=[
 
 
 function sumArr(array) {
-    let merge1;
-    merge1=array.flat(1);
+    let merge1 = array.flat(1);
     console.log(merge1);
 }
 

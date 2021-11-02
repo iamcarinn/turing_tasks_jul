@@ -1,7 +1,11 @@
-function  red(n) {
-    let obj1={};
-    Object.keys(obj1)===n;
-    console.log(Object.keys(obj1));
-}
+let panda = {
+    nutrition: 'plants',
+};
 
-(red(4));
+function Animals() {
+    this.age = 'adult';
+}
+let rabbit = new Animals();
+rabbit.__proto__ = panda;
+
+console.log('rabbit nutrition:',rabbit.nutrition);
