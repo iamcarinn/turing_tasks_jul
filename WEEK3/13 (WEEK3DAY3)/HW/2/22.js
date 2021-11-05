@@ -1,10 +1,14 @@
-let obj1={
+let foo={
     a:1,
     b: {
         c:2,
     },
 }
 
-let newObj=Object.assign({},obj1);
-console.log(newObj);
+function cloningFunc(obj) {
+    let newFoo=Object.assign({},obj);
+    console.log(newFoo);
+};
 
+
+cloningFunc(foo);
