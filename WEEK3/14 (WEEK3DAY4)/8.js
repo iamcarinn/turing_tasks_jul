@@ -2,6 +2,6 @@ let rus = ['Понедельник', 'Вторник', 'Cреда', 'Четве�
 let eng = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 let map = new Map();
 
-map.set(eng, rus);
+eng.forEach((item, index) => map.set(item, rus[index]));
 
 console.log(map);
