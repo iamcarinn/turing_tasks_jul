@@ -1,7 +1,7 @@
-function showValue() {
-    let e = document.getElementById("filename");
-    e.value = "foo";
-    alert(e.value);
+let foo = document.querySelector('#filename');
+
+function showValue(elem) {
+    alert(elem.value);
 }
 
-showValue();
+showValue(foo);

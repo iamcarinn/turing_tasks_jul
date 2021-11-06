@@ -1,8 +1,6 @@
-function a() {
-    let foo = document.querySelectorAll('.foo');
-    foo.forEach(e => {
-        e.setAttribute("disabled", "");
-    });
-}
+let foo = document.querySelector('.foo');
 
-a();
+function a(elem) {
+        elem.setAttribute("disabled", "");
+}
+a(foo);
