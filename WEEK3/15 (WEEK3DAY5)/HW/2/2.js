@@ -1,5 +1,1 @@
-const scrollX = window.scrollX;
-function show(val) {
-    let abc=document.getElementById('foo').innerText=val;
-}
-show(scrollX);
+alert('Текущая прокрутка сверху: ' + window.pageYOffset);
