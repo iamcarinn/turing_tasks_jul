@@ -1,5 +1,5 @@
-document.querySelector('.myValidate').addEventListener('onfocusout', function () {
-    if (this.value === '123') {
+document.querySelector('.myValidate').addEventListener('blur', function () {
+    if (this.value === document.querySelector('div').innerHTML) {
         alert('правильно')
     } else {
         alert('попробуй ещё раз')
