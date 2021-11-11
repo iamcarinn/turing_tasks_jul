@@ -1,0 +1,1 @@
+alert('Текущая прокрутка сверху: ' + window.pageYOffset);

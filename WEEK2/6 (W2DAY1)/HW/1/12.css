@@ -1,0 +1,20 @@
+.custom-radio {
+    position: absolute;
+    /*    Кладу ниже остальных элементов*/
+    z-index: -1;
+    /*    Делаю прозрачным*/
+    opacity: 0.3;
+}
+
+.custom-radio+label::before {
+    content: "";
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+}
+
+.custom-radio:checked+label::before {
+    background-color: orangered;
+    border-radius: 50%;
+    border: 0;
+}
