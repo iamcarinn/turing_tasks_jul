@@ -12,7 +12,17 @@ class Editor {
     }
 
     symbols() {
-        console.log(this.string.);
+        const  puk = this.string.split(' ');
+        let sum = 0;
+        function Summa() {
+            for (let i = 0; i<puk.length; ++i) {
+                return sum += puk[i].length;
+            }
+            console.log(sum);
+        }
+        Summa()
+
+
     }
 
 }
