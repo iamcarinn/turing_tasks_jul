@@ -12,17 +12,9 @@ class Editor {
     }
 
     symbols() {
-        const  puk = this.string.split(' ');
-        let sum = 0;
-        function Summa() {
-            for (let i = 0; i<puk.length; ++i) {
-                return sum += puk[i].length;
-            }
-            console.log(sum);
-        }
-        Summa()
-
-
+        let  puk = this.string.split(' ');
+        let puk1=puk.join('');
+        console.log('Кол-во символов в строке без пробелов:', puk1.length);
     }
 
 }
