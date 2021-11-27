@@ -1,3 +1,3 @@
-const parent=document.querySelector('div');
-const child1=document.querySelector('div>p:first-child');
-child1.style.color='red';
+let parent=document.querySelector('div');
+let child = parent.firstElementChild;
+child.style.color = 'red';

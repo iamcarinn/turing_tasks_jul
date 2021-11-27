@@ -1,2 +1,3 @@
-const frfr = document.querySelectorAll('.numbers');
-frfr[0].style.margin='50px';
+const frfr = document.querySelector('.numbers');
+frfr.style.width='300px';
+frfr.style.backgroundColor='purple';

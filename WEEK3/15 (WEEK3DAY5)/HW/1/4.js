@@ -1,5 +1,8 @@
 const myElems = document.querySelectorAll('li');
 
-
-myElems[0].style.backgroundColor = 'grey';
-myElems[0].style.fontWeight = 'bold';
+for (let i = 0; i < myElems.length; i++) {
+    if (i % 2 !== 0) {
+        myElems[i].style.backgroundColor = 'grey';
+        myElems[i].style.fontWeight = 'bold';
+    }
+}
