@@ -1,2 +1,5 @@
-const neighborsNeig = document.querySelector('div+div+div');
-neighborsNeig.textContent+='!!!'
+const first = document.getElementById('first');
+const neighbor1 = first.nextSibling;
+const neighbor2 = neighbor1.nextSibling;
+
+neighbor2.innerHTML += '!!!'
