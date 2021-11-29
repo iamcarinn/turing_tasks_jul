@@ -7,17 +7,12 @@ const nameFun1 = (array) => {
 
 //Возвращает сумму чисел массива
 const nameFunc2 = (array) => {
-    return array.reduce((a,b)=>a+b)
+    return array.reduce((a,b)=>a+b, 0)
 };
 
 //Создаем успешный промис :)
-let promise = new Promise(function (resolve, reject) {
-    setTimeout(() => resolve(arr), 1000) });
+let promise = new Promise((resolve, reject) =>
+    setTimeout(() => resolve(arr), 1000));
 
 //Обрабатываем наш промис с помощью метода then()
-promise.then(() => nameFun1(arr)).then(() => nameFunc2(arr)).then(alert);
-
-
-
-
-
+promise.then((arr1) => nameFun1(arr1)).then((arr2) => nameFunc2(arr2)).then(arr3 => console.log(arr3));
