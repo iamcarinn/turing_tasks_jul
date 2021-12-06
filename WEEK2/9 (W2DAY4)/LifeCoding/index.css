@@ -1,0 +1,22 @@
+/*.container {
+    display: grid;
+    grid-auto-columns: 60px;
+    grid-auto-rows: 60px;
+}
+
+.container>div {
+    background-color: green;
+    border: 1px solid black;
+}*/
+
+.container-2 {
+    display: grid;
+    grid-template-columns: 60px 80px 60px 60px 60px;
+    grid-template-rows: 30px 70px;
+    grid-auto-flow: column;
+}
+
+.container-2>div {
+    background-color: yellow;
+    border: 1px solid green;
+}
