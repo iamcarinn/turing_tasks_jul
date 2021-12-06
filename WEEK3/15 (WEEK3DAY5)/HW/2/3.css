@@ -10,4 +10,6 @@ td {
 div, table {
     font-size: 40px;
     font-family: Calibri;
+    display: flex;
+    justify-content: center;
 }

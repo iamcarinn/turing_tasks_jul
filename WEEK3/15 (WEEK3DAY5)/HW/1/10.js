@@ -1,5 +1,4 @@
 const first = document.getElementById('first');
-const neighbor1 = first.nextSibling;
-const neighbor2 = neighbor1.nextSibling;
+const neighbor2 = first.nextElementSibling.nextElementSibling;
 
 neighbor2.innerHTML += '!!!'
