@@ -1,0 +1,9 @@
+div {
+    width: 600px;
+    height: 200px;
+    border: solid 15px;
+    margin: 50px auto;
+    border-image: linear-gradient(to bottom right, orangered 0%, palevioletred 100%);
+    border-image-slice: 1;
+
+}
