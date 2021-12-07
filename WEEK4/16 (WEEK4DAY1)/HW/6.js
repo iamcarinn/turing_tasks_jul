@@ -39,12 +39,11 @@ class DomHelper {
     }
 
     getChildSelector() {
-        let everyChild = $('#dad').find('div');
-        alert(everyChild);
+        return alert(this.abcd.children);
     }
 }
 
-let myElem = new DomHelper(document.querySelector('#hi'));
+let myElem = new DomHelper(document.querySelector(`#hi`));
 myElem.changeText();
 myElem.changeHTML();
 myElem.addChildNode();

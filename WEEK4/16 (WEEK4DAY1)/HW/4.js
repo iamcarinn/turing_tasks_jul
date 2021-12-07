@@ -4,11 +4,15 @@ class Editor {
     }
 
     bigLetters() {
-        console.log(this.string.toUpperCase())
+        console.log(this.string.split(' ').map(
+            word => word[0].toUpperCase() + word.substring(1)
+        ).join(' '))
     }
 
     smallLetters() {
-        console.log(this.string.toLowerCase());
+        console.log(this.string.split(' ').map(
+            word => word[0].toLowerCase() + word.substring(1)
+        ).join(' '))
     }
 
     symbols() {
